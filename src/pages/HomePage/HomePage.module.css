@@ -1,0 +1,9 @@
+.titleMovie {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 52px;
+  position: static;
+  margin-top: 86px;
+  margin-bottom: 55px;
+  color: rgb(37, 4, 67);
+}
