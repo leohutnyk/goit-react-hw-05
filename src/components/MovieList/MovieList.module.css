@@ -1,0 +1,31 @@
+.films {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.film-item {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.film-item img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.film-item h3 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.film-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.filmTitle {
+  width: 300px;
+}

@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.movieInfo h1 {
+  margin-bottom: 10px;
+}
+
+.movieInfo p {
+  font-size: 20px;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.addInfo {
+  font-size: 20px;
+  text-align: center;
+}
+
+.details {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.goBackButton {
+  display: block;
+  margin: 20px auto;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.goBackButton:hover {
+  background-color: #0056b3;
+}
+
+.inactiveLink {
+  text-decoration: none;
+  color: #555;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.activeLink {
+  text-decoration: none;
+  color: #0056b3;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 3px;
+}
